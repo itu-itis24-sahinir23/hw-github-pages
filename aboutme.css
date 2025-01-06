@@ -1,0 +1,95 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin:0;
+    padding:20px;
+    background-color:#fff;
+    color:rgb(0, 0, 0)
+}
+h1{
+    text-align: center;
+    color: #580707;
+    font-size:50px;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    color:#580707;
+    font-size:35px;
+    margin:auto;
+}
+#intro{
+    background-color:#fff;
+    border-radius:10px;
+    padding:20px;
+    margin:auto;
+}
+#photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.center-icon {
+    text-align: left;
+}
+#interests {
+    border: thick solid rgb(0, 0, 0);
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 4ex;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#interests ul {
+    list-style-type:none;
+    padding-left: 0; 
+}
+
+#interests li {
+    font-size: 20px; 
+    color: #066031; 
+    margin-bottom: 10px; 
+    font-weight: bold; 
+}
+
+#interests p {
+    font-size: 16px; 
+    color: #000; 
+    margin-left: 20px;
+    margin-bottom: 10px; 
+}
+
+#interests li + p {
+    margin-top: -10px; 
+}
+#gamelink{
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left:left;
+    margin-right:auto;
+    padding: 4ex;
+    width: 50%;
+}
+#gamelink p{
+    font-size:16px;
+    color:#000;
+    margin:center;
+}
+#gamelink button{
+    font-size:16px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px; 
+    background-color: #2014c3;
+    color: white;
+    border:#000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#gamelink button:hover{
+    background-color:#171379;
+}
